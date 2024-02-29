@@ -136,7 +136,7 @@
 </xsl:template>
 
 <xsl:template match="link:url">
-	<a style="color:#3465A4" href="{node()}"><xsl:value-of select="node()"/></a>
+	<a style="color:#3465A4" href="{node().html}"><xsl:value-of select="node()"/></a>
 </xsl:template>
 
 <xsl:template match="tomboy:list">
